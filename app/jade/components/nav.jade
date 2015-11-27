@@ -1,0 +1,54 @@
+nav#menu
+  ul
+    li
+        i.fa.fa-search
+        input(type="text" value="Search")
+    li
+      input(id="cart-menu-toggle" type="checkbox")
+      label(for="cart-menu-toggle")
+        i.fa.fa-shopping-cart
+        span
+      ul#cart-menu
+        li 
+          i.fa.fa-times 
+          p Star Nutrition Whey-80 
+            br
+            input(type="number" name="quantity" min="1" max="50")
+            input(type="submit" value="update")
+          p.extrasmall ( You are saving x ;- )
+        li 
+          i.fa.fa-times
+          p Star Nutrition Whey-80 
+            br
+            input(type="number" name="quantity" min="1" max="50")
+            input(type="submit" value="update")
+          p.extrasmall ( You are saving x ;- )
+        li 
+          i.fa.fa-times 
+          p Star Nutrition Whey-80 
+            br
+            input(type="number" name="quantity" min="1" max="50")
+            input(type="submit" value="update")
+          p.extrasmall ( You are saving x ;- )
+    li: a(href="index.html")
+        i.fa.fa-circle-o
+        span  Home
+    li: a(href="#")
+        i.fa.fa-circle-o
+        span  About
+    li
+      input(id="nav-sub-toggle" type="checkbox")
+      label(for="nav-sub-toggle")
+        i.fa.fa-circle-o
+        span  Store
+      ul#nav-sub
+        li: a(href="#") lightweight
+        li: a(href="#") middleweight
+        li: a(href="#") heavyweight
+    li: a(href="#")
+        i.fa.fa-circle-o
+        span  Info
+    li: a(href="#")
+        i.fa.fa-circle-o
+        span  Contact
+    
